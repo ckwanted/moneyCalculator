@@ -1,8 +1,14 @@
 package controller;
 
+import model.CurrencySet;
+import model.Exchange;
+import view.ui.console.ConsoleExchangeDialog;
+
 public class ConsoleExchangeOperator {
     
-    public void execute() {
+    public void execute(CurrencySet currencySet) {
+        Exchange exchange = ConsoleExchangeDialog.execute(currencySet);
+        System.out.println(exchange.getMoney() + " " + exchange.getCurrency());
     }
 
 }

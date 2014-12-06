@@ -44,7 +44,7 @@ public class ConsoleExchangeDialog {
         
         if(option.equals("EUR")) return new Currency("EUR", "EURO", "€");
         else if(option.equals("USD")) return new Currency("USD", "DOLAR", "$");
-        else return new Currency("BGP", "LIBRA", "£");
+        else return new Currency("GBP", "LIBRA", "£");
     }
 
 }
