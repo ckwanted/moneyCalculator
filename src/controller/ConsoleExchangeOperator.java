@@ -8,7 +8,7 @@ public class ConsoleExchangeOperator {
     
     public void execute(CurrencySet currencySet) {
         Exchange exchange = ConsoleExchangeDialog.execute(currencySet);
-        System.out.println(exchange.getMoney() + " " + exchange.getCurrency());
+        System.out.println("Your money : " + exchange.getMoney() + " " + exchange.getCurrency());
     }
 
 }
