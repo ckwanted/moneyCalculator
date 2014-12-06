@@ -17,5 +17,10 @@ public class Exchange {
     public Currency getCurrency() {
         return currency;
     }
+
+    @Override
+    public String toString() {
+        return money + " " + money.getCurrency();
+    }
     
 }
