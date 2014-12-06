@@ -4,7 +4,7 @@ Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpg
 <h3>Fixed Error View Console</h3>
 <ul><li>ConsoleExchangeDialog</li></ul>
 <h6>Deleted File ConsoleExchangeDisplay</h6>
-<h4>Add File MoneyDisplay</h4>
+<h5>Add File MoneyDisplay</h5>
 <hr/>
 
 <h3>Add File View Persistence</h3>
