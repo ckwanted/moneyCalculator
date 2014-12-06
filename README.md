@@ -20,7 +20,7 @@ Money Calculator IS2
 </ul>
 <hr/>
 
-<h3>Model finish beta 1.0</h3>
+<h3>Add Model finish beta 1.0</h3>
 <ul>
   <li>Currency</li>
   <li>CurrencySet</li>
