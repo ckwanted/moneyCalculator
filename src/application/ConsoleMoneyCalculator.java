@@ -1,6 +1,6 @@
 package application;
 
-public class MoneyCalculator {
+public class ConsoleMoneyCalculator {
     
     public static void main(String[] args) {
         
