@@ -32,27 +32,27 @@ Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpg
 </ul>
 <hr/>
 
-<h3>Add View UI Console</h3>
+<h3>View UI Console</h3>
 <ul>
   <li>ConsoleExchangeDialog</li>
   <li>ConsoleExchangeDisplay</li>
 </ul>
 <hr/>
 
-<h3>Add View Process</h3>
+<h3>View Process</h3>
 <ul>
   <li>Exchanger</li>
 </ul>
 <hr/>
 
-<h3>Add View Persistence</h3>
+<h3>View Persistence</h3>
 <ul>
   <li>CurrencySetLoader</li>
   <li>ExchangeRateLoader</li>
 </ul>
 <hr/>
 
-<h3>Add Model finish beta 1.0</h3>
+<h3>Finished Model</h3>
 <ul>
   <li>Currency</li>
   <li>CurrencySet</li>
