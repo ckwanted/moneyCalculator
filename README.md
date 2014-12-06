@@ -2,11 +2,9 @@ Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpg
 ===============
 
 <h3>Fixed Error View Console</h3>
-<ul>
-  <li>ConsoleExchangeDialog</li>
-</ul>
-<p>Deleted File ConsoleExchangeDisplay</p>
-<p>Add File MoneyDisplay</p>
+<ul><li>ConsoleExchangeDialog</li></ul>
+<h5>Deleted File ConsoleExchangeDisplay</h5>
+<h6>Add File MoneyDisplay</h6>
 <hr/>
 
 <h3>Add File View Persistence</h3>
