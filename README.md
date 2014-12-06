@@ -2,6 +2,10 @@ Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpg
 ===============
 
 <h3>Money Calculator Console MOCK 1.0</h3>
+<h5>Updated Controller ConsoleExchangeOperator</h5>
+<hr/>
+
+<h3>Money Calculator Console MOCK 1.0</h3>
 <h5>Updated Controller and Application</h5>
 <ul>
   <li>ConsoleMoneyCalculator</li>
