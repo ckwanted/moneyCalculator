@@ -1,5 +1,8 @@
 Money Calculator IS2
 ===============
+
+<img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpgc_con.jpg" alt="img" />
+
 <h3>Fixed Error View persistence</h3>
 <ul>
   <li>CurrencySetLoader</li>
