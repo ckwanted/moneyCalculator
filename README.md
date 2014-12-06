@@ -1,6 +1,6 @@
 Money Calculator IS2
 ===============
-<h3>fixed error View persistence</h3>
+<h3>Fixed Error View persistence</h3>
 <ul>
   <li>CurrencySetLoader</li>
   <li>ExchangeRateLoader</li>
