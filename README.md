@@ -1,7 +1,7 @@
-Money Calculator IS2
+Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpgc_con.jpg" height="50" width="50" alt="img" />
 ===============
 
-<img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpgc_con.jpg" height="50" width="50" alt="img" />
+
 
 <h3>Fixed Error View persistence</h3>
 <ul>
