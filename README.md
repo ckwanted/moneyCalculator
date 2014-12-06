@@ -3,7 +3,7 @@ Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpg
 
 
 
-<h3><span style="color:red">Fixed Error</span> View persistence</h3>
+<h3>Fixed Error View persistence</h3>
 <ul>
   <li>CurrencySetLoader</li>
   <li>ExchangeRateLoader</li>
