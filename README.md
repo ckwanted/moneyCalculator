@@ -1,4 +1,4 @@
-<h1>Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpgc_con.jpg" height="50" width="50" alt="img" /></h1>
+Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpgc_con.jpg" height="50" width="50" alt="img" />
 ===============
 
 
