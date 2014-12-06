@@ -1,5 +1,12 @@
 Money Calculator IS2
 ===============
+<h3>fixed error View persistence</h3>
+<ul>
+  <li>CurrencySetLoader</li>
+  <li>ExchangeRateLoader</li>
+</ul>
+<hr/>
+
 <h3>Add View UI Console</h3>
 <ul>
   <li>ConsoleExchangeDialog</li>
