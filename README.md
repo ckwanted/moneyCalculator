@@ -1,5 +1,12 @@
 Money Calculator IS2
 ===============
+<h3>Add View UI Console</h3>
+<ul>
+  <li>ConsoleExchangeDialog</li>
+  <li>ConsoleExchangeDisplay</li>
+</ul>
+<hr/>
+
 <h3>Add View Process</h3>
 <ul>
   <li>Exchanger</li>
