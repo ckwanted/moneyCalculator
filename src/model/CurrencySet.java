@@ -1,25 +1,32 @@
 package model;
 
-import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Set;
 
-public class CurrencySet extends HashMap<String,Currency> implements Iterable<String> {
+public class CurrencySet implements Iterable<Currency> {
+    
+    private Set<Currency> currencySet;
 
     public CurrencySet() {
-        super();
-    }
-    
-    public Currency getCurrency(String code) {
-        return this.get(code);
+        this.currencySet = new HashSet<>();
     }
     
     public void add(Currency currency) {
-        this.put(currency.getCode(), currency);
+        currencySet.add(currency);
+    }
+    
+    public void remove(Currency currency) {
+        if(currencySet.contains(currency)) currencySet.remove(currency);
+    }
+
+    public Currency[] getItems() {
+        return currencySet.toArray(new Currency[currencySet.size()]);
     }
 
     @Override
-    public Iterator<String> iterator() {
-        return this.keySet().iterator();
+    public Iterator<Currency> iterator() {
+        return currencySet.iterator();
     }
     
 }
