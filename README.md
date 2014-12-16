@@ -1,6 +1,10 @@
 Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpgc_con.jpg" height="50" width="50" alt="img" />
 ===============
 
+<h3>Money Calculator Swing beta 1.0</h3>
+
+<hr/>
+
 <h3>Money Calculator Console MOCK 1.2</h3>
 <h6>SQlite</h6>
 <hr/>
