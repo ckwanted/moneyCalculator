@@ -6,7 +6,7 @@ Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpg
 <hr/>
 
 <h3>Money Calculator Console MOCK 1.2</h3>
-<h6>SQlite</h6>
+<h5>SQlite</h5>
 <hr/>
 
 <h3>Money Calculator Console MOCK 1.1</h3>
