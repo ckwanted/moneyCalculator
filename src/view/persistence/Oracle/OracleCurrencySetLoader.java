@@ -1,4 +1,4 @@
-package view.persistence.DB;
+package view.persistence.Oracle;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -10,7 +10,7 @@ import view.persistence.CurrencySetLoader;
 public class OracleCurrencySetLoader implements CurrencySetLoader {
 
     @Override
-    public CurrencySet load() {
+    public CurrencySet loadCurrency() {
         try {
             CurrencySet currencySet = new CurrencySet();
             OracleConnection oracleConnection = new OracleConnection();

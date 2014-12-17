@@ -7,7 +7,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import model.CurrencySet;
-import view.persistence.DB.SQliteConnection;
+import view.persistence.SQlite.SQliteConnection;
 import view.ui.swing.ApplicationFrame;
 
 public class MoneyCalculatorSQlite {
@@ -17,12 +17,14 @@ public class MoneyCalculatorSQlite {
         Connection connection = createConnection("money-calculator.db");
         SQliteConnection dbSQlite = new SQliteConnection(connection);
         
-        CurrencySet currencySet = dbSQlite.loadCurrencySet();
-        ApplicationFrame frame = new ApplicationFrame(currencySet);
-        frame.register("Calcular", new ActionListener() {
+        final CurrencySet currencySet = dbSQlite.loadCurrency();
+        final ApplicationFrame frame = new ApplicationFrame(currencySet);
+        
+        frame.register("Calculate", new ActionListener() {
+            
             @Override
             public void actionPerformed(ActionEvent event) {
-                new ExchangeOperation(frame.getDialog()).execute();
+                new ExchangeOperation(frame.getDialog()).execute(currencySet);
             }
             
         });

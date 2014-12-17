@@ -4,6 +4,6 @@ import model.CurrencySet;
 
 public interface CurrencySetLoader {
     
-    public CurrencySet load();
+    public CurrencySet loadCurrency();
     
 }
