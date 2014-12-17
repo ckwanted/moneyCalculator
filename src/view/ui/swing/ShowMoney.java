@@ -20,7 +20,8 @@ public class ShowMoney extends JFrame {
 
     private void loadLookAndFeel() {
         try {
-            UIManager.setLookAndFeel(ch.randelshofer.quaqua.QuaquaManager.getLookAndFeelClassName());
+            System.setProperty("Quaqua.tabLayoutPolicy","wrap");
+            UIManager.setLookAndFeel(ch.randelshofer.quaqua.QuaquaManager.getLookAndFeel());
         } 
         catch (Exception event) {
             System.out.println("Error in Look And Feel");
