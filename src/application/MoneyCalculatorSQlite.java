@@ -21,7 +21,6 @@ public class MoneyCalculatorSQlite {
         final ApplicationFrame frame = new ApplicationFrame(currencySet);
         
         frame.register("Calculate", new ActionListener() {
-            
             @Override
             public void actionPerformed(ActionEvent event) {
                 new ExchangeOperation(frame.getDialog()).execute(currencySet);
