@@ -7,6 +7,8 @@ Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpg
       <dd>- Currency</dd>
       <dd>- CurrencySet</dd>
       <dd>- Exchange</dd>
+      <dd>- ExchangeRate</dd>
+      <dd>- Money</dd>
 </dl>
 <hr/>
 
