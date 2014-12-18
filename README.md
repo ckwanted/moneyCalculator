@@ -14,6 +14,18 @@ Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpg
       <dd>- ExchangeRateLoader</dd>
    <dt>View Persistence SQlite</dt>
       <dd>- SQliteConnection</dd>
+   <dt>View Process</dt>
+      <dd>- Exchanger</dd>
+   <dt>View UI</dt>
+      <dd>- ExchangeDialog</dd>
+   <dt>View UI SWING</dt>
+      <dd>- ApplicationFrame</dd>
+      <dd>- ExchangeDialogPanel</dd>
+      <dd>- ShowMoney</dd>
+   <dt>Controller</dt>
+      <dd>- ExchangeOperation</dd>
+   <dt>Application</dt>
+      <dd>- MoneyCalculatorSQlite</dd>
 </dl>
 <hr/>
 
