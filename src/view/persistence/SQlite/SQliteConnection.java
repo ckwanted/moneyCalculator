@@ -42,7 +42,9 @@ public class SQliteConnection implements CurrencySetLoader {
     }
     
     public ExchangeRate getExchangeRate(Currency fromCurrency, Currency toCurrency) {
-        String query = "SELECT * FROM exchangeRate";
+        String query = "SELECT * FROM exchangeRate "
+                     + "WHERE fromCurrency='" + fromCurrency + "' "
+                     + "AND toCurrency='" + toCurrency + "'";
         try {
             return processExchangeRate(connection.createStatement().executeQuery(query),
                     fromCurrency,toCurrency);

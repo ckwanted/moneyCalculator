@@ -23,7 +23,7 @@ public class MoneyCalculatorSQlite {
         frame.register("Calculate", new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent event) {
-                new ExchangeOperation(frame.getDialog()).execute(currencySet);
+                new ExchangeOperation(frame.getDialog()).execute(dbSQlite);
             }
             
         });

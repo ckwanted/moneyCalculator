@@ -1,8 +1,8 @@
 package controller;
 
-import model.Currency;
-import model.CurrencySet;
-import model.Money;
+import model.ExchangeRate;
+import view.persistence.SQlite.SQliteConnection;
+import view.process.Exchanger;
 import view.ui.ExchangeDialog;
 import view.ui.swing.ShowMoney;
 
@@ -14,11 +14,13 @@ public class ExchangeOperation {
         this.dialog = dialog;
     }
     
-    public void execute(CurrencySet currencySet) {
-        System.out.println(dialog.getExchange().getMoney());
-        System.out.println(dialog.getExchange().getMoney().getCurrency());
-        System.out.println(dialog.getExchange().getCurrency());
-        new ShowMoney(new Money(50, new Currency("EUR", "EURO", "€")));
+    public void execute(SQliteConnection dbSQlite) {
+        ExchangeRate exchangeRate = dbSQlite.getExchangeRate(
+                dialog.getExchange().getMoney().getCurrency(),
+                dialog.getExchange().getCurrency()
+        );
+        
+        new ShowMoney(Exchanger.exchangeRate(dialog.getExchange().getMoney(), exchangeRate));
     }
     
 }

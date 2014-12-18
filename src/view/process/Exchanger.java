@@ -6,7 +6,7 @@ import model.Money;
 public class Exchanger {
     
     public static Money exchangeRate(Money money, ExchangeRate exchangeRate) {
-        return new Money(calculateRate(money,exchangeRate), exchangeRate.getToCurrency());
+        return new Money(calculateRate(money,exchangeRate), exchangeRate.getFromCurrency());
     }
 
     private static double calculateRate(Money money, ExchangeRate exchangeRate) {
