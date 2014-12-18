@@ -9,6 +9,10 @@ Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpg
       <dd>- Exchange</dd>
       <dd>- ExchangeRate</dd>
       <dd>- Money</dd>
+   <dt>View</dt>
+      <dt>Persistence</dt>
+         <dd>- CurrencySetLoader</dd>
+         <dd>- ExchangeRateLoader</dd>
 </dl>
 <hr/>
 
