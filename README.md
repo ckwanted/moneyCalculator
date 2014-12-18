@@ -2,6 +2,9 @@ Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpg
 ===============
 
 <h3>Money Calculator beta 1.0</h3>
+<dl>
+   <dt>Model</dt>
+</dl>
 <hr/>
 
 <h3>Money Calculator Swing alpha 1.1</h3>
