@@ -9,7 +9,7 @@ Money Calculator IS2
       <dd>- Exchange</dd>
       <dd>- ExchangeRate</dd>
       <dd>- Money</dd>
-   <dt>View Mock</dt>
+   <dt>Mock</dt>
       <dd>- CurrencySetLoaderMock</dd>
       <dd>- ExchangeRateLoadeMockr</dd>
    <dt>View Persistence</dt>
