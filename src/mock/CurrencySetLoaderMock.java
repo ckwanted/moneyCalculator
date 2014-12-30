@@ -3,7 +3,7 @@ package mock;
 import model.Currency;
 import model.CurrencySet;
 
-public class CurrencySetLoader {
+public class CurrencySetLoaderMock {
 
     public CurrencySet load() {
         CurrencySet currencySet = new CurrencySet();

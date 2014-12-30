@@ -3,14 +3,16 @@ package view.ui.swing;
 import static java.awt.BorderLayout.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileInputStream;
 import java.util.HashMap;
 import java.util.Map;
+import javax.imageio.ImageIO;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.UIManager;
 import model.CurrencySet;
 import view.ui.ExchangeDialog;
+import view.ui.LookAndFeel;
 
 public class ApplicationFrame extends JFrame {
     
@@ -20,7 +22,8 @@ public class ApplicationFrame extends JFrame {
 
     public ApplicationFrame(CurrencySet currencySet) {
         super("Money Calculator 1.0");
-        loadLookAndFeel();
+        LookAndFeel.loadLookAndFeel();
+        this.loadIcon();
         this.currencySet = currencySet;
         this.listeners = new HashMap<>();
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -65,14 +68,12 @@ public class ApplicationFrame extends JFrame {
         this.exchangeDialog = panel;
         return panel;
     }
-    
-    private void loadLookAndFeel() {
+
+    private void loadIcon() {
         try {
-            System.setProperty("Quaqua.tabLayoutPolicy","wrap");
-            UIManager.setLookAndFeel(ch.randelshofer.quaqua.QuaquaManager.getLookAndFeel());
-        } 
-        catch (Exception event) {
-            System.out.println("Error in Look And Feel");
+            setIconImage(ImageIO.read(new FileInputStream("money.png")));
+        } catch (Exception exception) {
+            System.out.println("Error ico not found ...");
         }
     }
     

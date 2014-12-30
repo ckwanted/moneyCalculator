@@ -1,16 +1,19 @@
 package view.ui.swing;
 
 import java.awt.Dimension;
+import java.io.FileInputStream;
+import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
-import javax.swing.UIManager;
 import model.Money;
+import view.ui.LookAndFeel;
 
 public class ShowMoney extends JFrame {
 
     public ShowMoney(Money money) {
         super("Result");
-        loadLookAndFeel();
+        LookAndFeel.loadLookAndFeel();
+        loadIcon();
         add(new JLabel(money + " " + money.getCurrency()));
         setSize(new Dimension(200,100));
         setResizable(false);
@@ -19,13 +22,11 @@ public class ShowMoney extends JFrame {
         setVisible(true);
     }
 
-    private void loadLookAndFeel() {
+    private void loadIcon() {
         try {
-            System.setProperty("Quaqua.tabLayoutPolicy","wrap");
-            UIManager.setLookAndFeel(ch.randelshofer.quaqua.QuaquaManager.getLookAndFeel());
-        } 
-        catch (Exception event) {
-            System.out.println("Error in Look And Feel");
+            setIconImage(ImageIO.read(new FileInputStream("money.png")));
+        } catch (Exception exception) {
+            System.out.println("Error ico not found ...");
         }
     }
     
