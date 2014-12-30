@@ -1,7 +1,7 @@
 Money Calculator IS2
 ===============
 
-<h3>Money Calculator beta 1.0</h3>
+<h3>Money Calculator 2.0</h3>
 <dl>
    <dt>Model</dt>
       <dd>- Currency</dd>
@@ -9,6 +9,9 @@ Money Calculator IS2
       <dd>- Exchange</dd>
       <dd>- ExchangeRate</dd>
       <dd>- Money</dd>
+   <dt>View Mock</dt>
+      <dd>- CurrencySetLoaderMock</dd>
+      <dd>- ExchangeRateLoadeMockr</dd>
    <dt>View Persistence</dt>
       <dd>- CurrencySetLoader</dd>
       <dd>- ExchangeRateLoader</dd>
@@ -18,6 +21,7 @@ Money Calculator IS2
       <dd>- Exchanger</dd>
    <dt>View UI</dt>
       <dd>- ExchangeDialog</dd>
+      <dd>- LookAndFeel</dd>
    <dt>View UI SWING</dt>
       <dd>- ApplicationFrame</dd>
       <dd>- ExchangeDialogPanel</dd>
