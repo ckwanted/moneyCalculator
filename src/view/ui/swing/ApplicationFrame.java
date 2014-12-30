@@ -21,7 +21,7 @@ public class ApplicationFrame extends JFrame {
     private ExchangeDialog exchangeDialog;
 
     public ApplicationFrame(CurrencySet currencySet) {
-        super("Money Calculator 1.0");
+        super("Money Calculator 2.1");
         LookAndFeel.loadLookAndFeel();
         this.loadIcon();
         this.currencySet = currencySet;
