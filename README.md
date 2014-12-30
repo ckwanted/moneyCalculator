@@ -1,4 +1,4 @@
-Money Calculator IS2 <img src="http://www2.dis.ulpgc.es/~mluengo/logos/logo_ulpgc_con.jpg" height="50" width="50" alt="img" />
+Money Calculator IS2
 ===============
 
 <h3>Money Calculator beta 1.0</h3>
